@@ -25,3 +25,18 @@ function disp(wdescription,tempdeg){
     document.getElementById("tvalue").appendChild(textdispt);
     bg(tempdeg);
 }
+/* function to change background based on temperature and weather*/
+function bg(tempdeg){
+    if(tempdeg < 20){
+        var backg = document.getElementById("getweather-and-temp");
+        backg.classList.add("backimgcold");
+    }
+    else if(tempdeg >20 && tempdeg <30){
+        var backg = document.getElementById("getweather-and-temp");
+        backg.classList.add("backimgwarm");
+    }
+    else{
+        var backg = document.getElementById("getweather-and-temp");
+        backg.classList.add("backimgsun");
+    }
+}
