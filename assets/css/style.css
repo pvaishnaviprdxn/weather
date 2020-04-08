@@ -138,15 +138,15 @@ h1{
     height: 100%;
 }
 .backimgsun{
-    background-image:url('sun2.jpeg');
+    background-image:url('../images/sun2.jpeg');
     background-size: cover;
 }
 .backimgcold{
-    background-image:url('cold.jpeg');
+    background-image:url('../images/cold.jpeg');
     background-size: cover;
 }
 .backimgwarm{
-    background-image:url('warm.jpeg');
+    background-image:url('../images/warm.jpeg');
     background-size: cover;
 }
 /*=================================
