@@ -14,3 +14,14 @@ x.onreadystatechange = function(){
         //}
     }
 }
+/*function to display weather and temp*/
+function disp(wdescription,tempdeg){
+    var upper = wdescription.toUpperCase();
+    var textdispw= document.createElement("textw");
+    textdispw.innerHTML = upper;
+    document.getElementById("wvalue").appendChild(textdispw);
+    var textdispt= document.createElement("textt");
+    textdispt.innerHTML = tempdeg;
+    document.getElementById("tvalue").appendChild(textdispt);
+    bg(tempdeg);
+}
